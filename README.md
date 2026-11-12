@@ -1,6 +1,6 @@
 # Banking Security Monitoring & Threat Detection
 
-**[View live dashboard](https://mirzanewton.github.io/banking_security_monitoring/reports/dashboard.html)**
+**[View live dashboard](https://mirzanewton.github.io/banking__security__monitoring/reports/dashboard.html)**
 
 A Python tool that analyses authentication logs, flags suspicious login
 patterns, and shows the alerts on a SIEM-style HTML dashboard.

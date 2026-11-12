@@ -1,0 +1,38 @@
+[
+  {
+    "time": "2026-11-01 02:41:05",
+    "severity": "MEDIUM",
+    "rule": "OFF_HOURS_LOGIN",
+    "ip": "198.51.100.99",
+    "user": "teller01",
+    "count": 1,
+    "detail": "Successful login at 02:41, outside business hours"
+  },
+  {
+    "time": "2026-11-01 11:00:32",
+    "severity": "HIGH",
+    "rule": "BRUTE_FORCE",
+    "ip": "203.0.113.50",
+    "user": "admin",
+    "count": 14,
+    "detail": "14 failed logins for 'admin' in one burst"
+  },
+  {
+    "time": "2026-11-01 11:02:10",
+    "severity": "CRITICAL",
+    "rule": "SUCCESS_AFTER_FAILURES",
+    "ip": "203.0.113.50",
+    "user": "admin",
+    "count": 12,
+    "detail": "Login succeeded for 'admin' after 12 recent failures"
+  },
+  {
+    "time": "2026-11-01 15:01:00",
+    "severity": "HIGH",
+    "rule": "PASSWORD_SPRAYING",
+    "ip": "203.0.113.77",
+    "user": "multiple",
+    "count": 16,
+    "detail": "16 failed attempts across multiple accounts from one IP"
+  }
+]
